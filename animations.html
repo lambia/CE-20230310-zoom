@@ -6,68 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/helper.css">
-    <style>
-
-        .square {
-            width: 150px;
-            height: 150px;
-            background-color: red;
-            position: absolute;
-
-            animation-name: example;
-            animation-duration: 4s;
-            animation-iteration-count: infinite;
-        }
-
-        /* .circle {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-color: yellowgreen;
-            position: absolute;
-            right: 0;
-
-            animation-name: example;
-            animation-duration: 7s;
-        } */
-
-        @keyframes example {
-            /* 
-            from {
-                background-color: red;
-            }
-            to {
-                background-color: yellowgreen;
-            } */
-            0% {
-                background-color: red; 
-                left: 0px; 
-                top: 0px;
-            }  
-            20% {
-                background-color: yellow; 
-                left: calc(100vw - 150px); 
-                top: 0px;
-            }  
-            40% {
-                background-color: blue; 
-                left: calc(100vw - 150px); 
-                top: calc(100vh - 150px); 
-            }   
-            60% {
-                background-color: green; 
-                left: 0px; 
-                top: calc(100vh - 150px); 
-            } 
-            70% {
-                background-color: red; 
-                left: 0px; 
-                top: 0px;
-            }
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="./css/animations.css">
 </head>
 <body>
     <div class="square"></div>
